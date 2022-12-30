@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,11 +15,15 @@
 
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
-  <body>
+  <body class="light">
     <div class="container">
       <div class="profile">
         <img src="assets/img/avatar-dark.png" alt="Foto de perfil" />
         <p>@alerrandrojanio</p>
+      </div>
+      <div class="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
       </div>
       <ul>
         <li>
@@ -63,5 +67,7 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
